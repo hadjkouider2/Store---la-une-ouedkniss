@@ -4,7 +4,13 @@
     box-sizing: border-box;
 }
 .container{
+    width: 518px;
+    height: 600px;
+    background-color:#ccc;
+    margin-top: 30px;
+    margin-left: 30px;
     position: relative;
+    border: 1px solid gray;
 }
 
 .imgup,.imgdown{
@@ -30,4 +36,18 @@
     position: absolute;
     top: 150px;
     left: 160px;
+}
+.gps{
+    height: 15px;
+    
+}
+.store{
+    height: 15px;
+    
+}
+h4{
+    color: orangered;
+}
+h5{
+    color: blue;
 }
