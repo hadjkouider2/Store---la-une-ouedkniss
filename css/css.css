@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+}
+
+.imgup,.imgdown{
+
+    display: flex;
+}
+.frigo{
+    height:250px;
+    width: 250px;
+}
+.oled{
+    height: 250px;
+    width: 250px;
+}
+.maxwell{
+    height: 250px;
+    width: 266px;
+}
+.logo{
+    width:200px ;
+    height: 200px;
+    border-radius: 150px;
+    position: absolute;
+    top: 150px;
+    left: 160px;
+}
